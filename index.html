@@ -246,9 +246,9 @@
       context.font = `${resultTextSize}px sans-serif`;
       context.fillStyle = 'white';
       if(won) {
-        context.fillText('You win!', (canvas.width / 2) - (95 * scalingFactor), canvas.height / 2);
+        context.fillText('The eagle has landed! Proceed to N50° 58.800 W001° 24.697', (canvas.width / 2) - (95 * scalingFactor), canvas.height / 2);
       } else if(lost) {
-        context.fillText('You lose!', (canvas.width / 2) - (95 * scalingFactor), canvas.height / 2);
+        context.fillText('Back to flight school!', (canvas.width / 2) - (95 * scalingFactor), canvas.height / 2);
       }
       // Press to play display
       context.font = `${resultTextSize * 0.75}px sans-serif`;
