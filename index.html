@@ -253,7 +253,7 @@
       // Press to play display
       context.font = `${resultTextSize * 0.75}px sans-serif`;
       if(paused && restartReadyFrom && (restartReadyFrom < (new Date()).getTime())) {
-        context.fillText('Press to play', (canvas.width / 2) - (105 * scalingFactor), (canvas.height / 2) + (100 * scalingFactor));
+        context.fillText('Press any key to play', (canvas.width / 2) - (95 * scalingFactor), (canvas.height / 2) + (100 * scalingFactor));
       }
 
       // Request the next frame
